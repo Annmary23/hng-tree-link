@@ -7,7 +7,7 @@
     transition: .5s ease;
 }
 
-.tree {
+.hng-tree {
     background: #FFFFFF;
     width: 100%;
     height: 100vh;
@@ -21,7 +21,7 @@
     justify-content: center;
 }
 
-.top-section {
+.main {
     display: flex;
     justify-content: center;
     align-content: space-between;
@@ -268,7 +268,7 @@ a {
     margin-top: 32px;
 }
 
-.social_section {
+.social__section {
     display: flex;
     flex-direction: row;
     margin-top: 40px;
@@ -298,13 +298,13 @@ footer {
 
 
 
-footer .zuriLogo h2 {
+footer .Logo-zuri h2 {
     font-size: 24px;
     font-weight: bold;
     display: block;
 }
 
-footer .zuriLogo h2 span {
+footer .Logo-zuri h2 span {
     background: #e7332b;
     border-radius: 50%;
     display: inline-block;
@@ -316,7 +316,7 @@ footer .zuriLogo h2 span {
 }
 
 
-footer .zuriText p {
+footer .Text-zuri p {
     color: #667085;
     font-size: 14px;
     font-weight: lighter;
@@ -336,19 +336,19 @@ footer .zuriText p {
         padding: 32px 0px;
     }
 
-    .zuriLogo {
+    .Logo-zuri {
         padding-right: 220px;
     }
 
-    footer .zuriLogo h2 {
+    footer .Logo-zuri h2 {
         font-size: 18px;
     }
 
-    .zuriText {
+    .Text-zuri {
         padding-right: 150px;
     }
 
-    .i4gLogo {
+    .Logo-i4g {
         padding-right: 260px;
     }
 }
