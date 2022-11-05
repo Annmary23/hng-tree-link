@@ -1,0 +1,66 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 95%;
+    margin-top: 10px;
+    min-height: 140px;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #eaecf0;
+    /* gap: initial; */
+}
+
+
+
+footer .Logo-zuri h2 {
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+}
+
+footer .Logo-zuri h2 span {
+    background: #e7332b;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 8px;
+    width: 8px;
+    font-size: 13px;
+}
+
+
+footer .Text-zuri p {
+    color: #667085;
+    font-size: 14px;
+    font-weight: lighter;
+    display: block;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        height: 196px;
+        padding: 32px 0px;
+    }
+
+    .Logo-zuri {
+        padding-right: 220px;
+    }
+
+    footer .Logo-zuri h2 {
+        font-size: 18px;
+    }
+
+    .Text-zuri {
+        padding-right: 150px;
+    }
+
+    .Logo-i4g {
+        padding-right: 260px;
+    }
+}
