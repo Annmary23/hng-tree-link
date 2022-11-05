@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import Tree from './Tree'
+import Contact from './Contact'
 import "./Home.css"
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <>
         <Routes>
             <Route path='/' element={<Tree />}/>
+            <Route path='/contact' element={<Contact />}/>
         </Routes>
     </>
   )
