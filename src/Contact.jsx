@@ -40,7 +40,7 @@ const Contact = () => {
                     />
                 </label>
 
-                <label className="textMessage">
+                <label className="message">
                     <p>Message</p>
                     <textarea name="message" id="message" rows="10" cols="30" defaultValue="Send me a message and I'll reply you as soon as possible..."/>
                 </label>
